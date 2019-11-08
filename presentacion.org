@@ -72,59 +72,9 @@ Data Journalism, Data Visualisation, Journalism, Data science, Social Science, O
 #+NAME:   fig:First The Guardian Data Blog
 [[./img/inicio-datablog.png]]
 https://www.theguardian.com/news/datablog/2009/mar/10/blogpost1
-** From Precision Journalism, 1967
 
-- Philip Meyer's Detroit Riots
-- First piece of precision journalism
-- The methods of investigation from social sciences
-- Applied to journalism
-
-*** Detroit Riots
-https://isr.umich.edu/wp-content/uploads/2011/03/detroitriot-1024x830.jpg
-
-*** MC5 Kick out the Jams
-#+begin_export html
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/NpDmIv93Qvs" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>
-#+end_export
-"The Motor City is Burning" by John Lee Hooker
-
-** To Data Journalism, 2009-
-
-- Data sources from Open Data portals
-- Tools from computer science
-- Web
-
-*** and eventually Data Science
-
-The journalist as a kind of
-- data scientist
-- web designer
-- web developer
-- computer programmer
-
-* What is Data Journalism?
-** Data Journalism is the new Punk
-
-Simon Rogers, november 2012
-
-#+begin_export html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h2zbvmXskSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-#+end_export
-
-** Telling stories based on Data
-
-Method of data journalism, Paul Bradshaw
-
-- Compile
-- Clean
-- Context
-- Combine
-- Communicate
-
-** Rewind: Computer Assisted Reporting, 1952
+* History
+** Computer Assisted Reporting, 1952
 
 - The CBS tried to predict the results of the USA presidential elections using a computer.
 - That was the first national broadcast (coast to coast) of a national
@@ -134,49 +84,67 @@ Method of data journalism, Paul Bradshaw
 - Conkrite explained that they used it as a complement not as the main
   part of his investigation
 
-*** UNIVAC
+** Precision Journalism, 1967
 
-#+begin_quote
-We saw it as an added feature to our coverage that could be very interesting in the future, and
-there was a great deal of pride that we had this exclusively. But I don't think that we felt the
-computer would become predominant in our coverage in any way.
-#+end_quote
+- Philip Meyer's Detroit Riots
+- First piece of precision journalism
+- The methods of investigation from social sciences
+- Applied to journalism
 
-** IRE and NICAR
+** IRE, 1975; and NICAR, 1989
 
 - Is it the work with computers and data what determines to be CAR?
-- Meyer's “Detroit Riots” research introduced the methodoloy in the daily journalistic work.
+- Meyer's "Detroit Riots" research introduced the methodoloy in the daily journalistic work.
 - In 1989 is founded the NICAR National Institute of Computer-Assisted
   Reporting with the support of the IRE (Investigative Reporters and
   Editors)
 
-** Landing in Spain, 1990
+** Precision Journalism, Spain, 1990
 - José Luis Dáder and Pedro Gómez had attended to various events.
 - The development of 'precision journalism' in the USA.
 - A new socio-statistical information
+- (...)
 
-** Forward to Data Journalism
+** Data Journalism is the new Punk, 2009-2012
 
-- Data Journalism
-- Data Driven Journalism
-- Database Journalism
+- With three cords your formed a band.
+- With three datasets you create a story
 
-*** Knowledge
+*** Stories based on Data
+
+ Method of data journalism, Paul Bradshaw
+
+ - Compile
+ - Clean
+ - Context
+ - Combine
+ - Communicate
+
+** Spanish Data Journalism Scene
+- Data Journalism Working Group
+- Master from URJC-Unidad Editorial
+- Open Data and Data Journalism Conference.
+- Data Journalism Workshop.
+- El Confidencial, ABC, El Mundo.
+- Civio, Datalab, Datadista
+
+
+** Data Science, 2013-
+
 - Journalism
-- Design
+- Design and Web Design
 - Programming
 - Statistics
+- Datascience
 
-*** To operate as a
+*** The journalist as a
 - Data journalist
-- Computer assisted repoerter
+- Computer assisted reporter
 - newsroom developer
 - journo-geek
 
-Troy Thibodeaux, Poynter
-
 *** With a set of tools
-- Statistical methods of social scientists
+- Statistical methods
 - Mapping tools of GIS
 - Visualisation arts of statistics and graphic design
 - Computer science skills
@@ -186,62 +154,15 @@ Troy Thibodeaux, Poynter
   - Systems engineering
   - Data mining
   - Cryptography
+  - among others...
 
 *** To develop
 
 - Classic CAR stories
 - Interactive graphics
 - Applications
-- Tools for writing Websites
-
-** But What is Data?
-- Anything countable can count as data
-- Anything that a computer processes is data.
-
-** Real Data Journalism
-- A tendency to look for what is categorizable, quantifiable and comparable in any news topic
-- A conviction that technology, properly applied to these aspects, can tell us something
-about the story that is both worth knowing and unknowable in any other
-way.
-
-** Recommendations
-*** Thibodeaux
-- Do not care what you know
-- Do not mind how to write the story
-- Either through words or pixels, "write!".
-- Pick up what's at hand
-- Learn what you need
-- Get to something real as soon as possible.
-
-*** Holovaty
-- Who cares?
-- I hope my competitors waste their time arguing about this as long as
-possible.
-*** Bradshaw
-- All the information is reduced to numbers
-- To 0 and 1, bits.
-- The data are not only the source but also the tool
-- Or the story
-- Or it can be both
-
-** The misunderstanding of data visualisation
-- Not having into account visualisation as part of the
-analytic stage
-- One of the typical errors of many data journalism
-- Data analysis it is also performed with visualisation tools.
-
-** Open Data Journalism
-- Open data can be used freely as a data source
-- The journalistic product is open data
-- The data sources and the methodology are published and shared
-
-** Spanish Data Journalism Scene
-- Data Journalism Working Group
-- Master from URJC-Unidad Editorial
-- Open Data and Data Journalism Conference.
-- Data Journalism Workshop.
-- El Confidencial, ABC, El Mundo.
-- Civio, Datalab, Datadista
+- Tools for writing
+- Websites
 
 * Prototypes
 
@@ -252,19 +173,19 @@ analytic stage
 
 ** Our proposal: 13 prototypes
 
-- Applications or Newsapps
-- Interactive tools
-- Classic stories CAR
-- Tools for writing
-- Websites with a set of articles
-- Data visualisation.
-- General purpose applications
-- Public service tools
-- Maps
-- Single-page projects
-- Video
-- Leaks
-- Social sciences approach.
+1. Applications or Newsapps
+2. Interactive tools
+3. Classic stories CAR
+4. Tools for writing
+5. Websites with a set of articles
+6. Data visualisation.
+7. General purpose applications
+8. Public service tools
+9. Maps
+10. Single-page projects
+11. Video
+12. Leaks
+13. Social sciences approach.
 
 ** Newsapps
 
@@ -361,13 +282,11 @@ https://www.theguardian.com/uk/series/reading-the-riots
 
 * Conclussions
 
-** Context
-- Object of study
-- Scope of the proposal.
-- Identification of prototypes
-
 ** Conclussion?
-- We get 13 prototypes
+
+- Historical overview is necessary
+- Clarification of terms
+- Identification of prototypes
 - It is a work in progress
 - The data journalism community will say.
 
