@@ -1,0 +1,373 @@
+# -*- mode: org -*-
+# -*- coding: utf-8 -*-
+#+STARTUP: hidestars overview noindent inlineimages logdrawer shrink
+#+OPTIONS:   H:1 toc:t num:nil \n:nil @:t ::t |:t ^:nil -:t f:t *:t <:t date:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:nil pri:nil tags:nil
+#+OPTIONS: author:t email:nil creator:nil timestamp:nil
+#+OPTIONS: toc:nil h:4
+#+TITLE: From social science techniques to datascience skills
+#+LATEX_CLASS: elsarticle
+#+LATEX_CLASS_OPTIONS: [authoryear,preprint,5p,times,twocolumn,11pt]
+#+LATEX_HEADER:\bibliography{~/Documentos/nube/biblioteca/bibliografia.bib}
+#+BIBLIOGRAPHY: refs plain
+#+EXPORT_FILE_NAME: index.html
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: serif
+#+REVEAL_OPTIONS: reveal_background: ./img/inicio-datablog
+#+REVEAL_ROOT: //cdn.jsdelivr.net/reveal.js/5.4.0/
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+* From Social Science Techniques to Data Science Skills 
+
+- Adolfo Antón Bravo , Ontology Engineering Group-Universidad
+  Politécnica de Madrid (Spain), adolfo.anton.bravo@upm.es
+- Ana Serrano Tellería, University of Castilla La Mancha (Spain),
+  anaserranotelleria@gmail.com
+
+* Abstract
+
+** In very few years
+In journalism, we have gone from looking at social
+science techniques, what was called precision journalism, to dealing
+with open data as a huge source of information.
+
+** The data journalism to come
+Journalism connects with data science in the sense of using
+--again-- scientific methods to extract knowledge and insights from
+structured data.
+** Prototypes
+This article offers an overview of that evolution and
+focuses on some prototypes that have emerged in this new journalistic
+ecosystem of data journalism, data visualisation and data literacy.
+
+
+* Keywords 
+Data Journalism, Data Visualisation, Journalism, Data science, Social Science, Open Data
+
+* Introduction
+
+- Practice runs parallel to experimentation.
+- Long string of prototypes
+ - Experimentation;
+ - Interest;
+ - Skills
+** 2009
+*** The modern data journalism
+2009, sheltered by:
+
+1. the open data portals
+2. the popularity of open source and
+3. standardization of HTML5
+
+*** the perfect scenario
+
+- sources of data
+- tools
+- output formats
+
+*** First piece of The Guardian Data Blog
+#+CAPTION: First piece of The Guardin Data Blog
+#+NAME:   fig:First The Guardian Data Blog
+[[./img/inicio-datablog.png]]
+https://www.theguardian.com/news/datablog/2009/mar/10/blogpost1
+** From Precision Journalism, 1967
+
+- Philip Meyer's Detroit Riots
+- First piece of precision journalism
+- The methods of investigation from social sciences
+- Applied to journalism
+
+*** Detroit Riots
+https://isr.umich.edu/wp-content/uploads/2011/03/detroitriot-1024x830.jpg
+
+*** MC5 Kick out the Jams
+#+begin_export html
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/NpDmIv93Qvs" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
+#+end_export
+"The Motor City is Burning" by John Lee Hooker
+
+** To Data Journalism, 2009-
+
+- Data sources from Open Data portals
+- Tools from computer science
+- Web
+
+*** and eventually Data Science
+
+The journalist as a kind of
+- data scientist
+- web designer
+- web developer
+- computer programmer
+
+* What is Data Journalism?
+** Data Journalism is the new Punk
+
+Simon Rogers, november 2012
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h2zbvmXskSE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
+** Telling stories based on Data
+
+Method of data journalism, Paul Bradshaw
+
+- Compile
+- Clean
+- Context
+- Combine
+- Communicate
+
+** Rewind: Computer Assisted Reporting, 1952
+
+- The CBS tried to predict the results of the USA presidential elections using a computer.
+- That was the first national broadcast (coast to coast) of a national
+  election.
+- Walter Conkrite as M.C.
+- A Remington Rand UNIVAC predicted an Eisenhower's landslide victory.
+- Conkrite explained that they used it as a complement not as the main
+  part of his investigation
+
+*** UNIVAC
+
+#+begin_quote
+We saw it as an added feature to our coverage that could be very interesting in the future, and
+there was a great deal of pride that we had this exclusively. But I don't think that we felt the
+computer would become predominant in our coverage in any way.
+#+end_quote
+
+** IRE and NICAR
+
+- Is it the work with computers and data what determines to be CAR?
+- Meyer's “Detroit Riots” research introduced the methodoloy in the daily journalistic work.
+- In 1989 is founded the NICAR National Institute of Computer-Assisted
+  Reporting with the support of the IRE (Investigative Reporters and
+  Editors)
+
+** Landing in Spain, 1990
+- José Luis Dáder and Pedro Gómez had attended to various events.
+- The development of 'precision journalism' in the USA.
+- A new socio-statistical information
+
+** Forward to Data Journalism
+
+- Data Journalism
+- Data Driven Journalism
+- Database Journalism
+
+*** Knowledge
+- Journalism
+- Design
+- Programming
+- Statistics
+
+*** To operate as a
+- Data journalist
+- Computer assisted repoerter
+- newsroom developer
+- journo-geek
+
+Troy Thibodeaux, Poynter
+
+*** With a set of tools
+- Statistical methods of social scientists
+- Mapping tools of GIS
+- Visualisation arts of statistics and graphic design
+- Computer science skills
+  - Web development
+  - General-purpose programming
+  - Database administration
+  - Systems engineering
+  - Data mining
+  - Cryptography
+
+*** To develop
+
+- Classic CAR stories
+- Interactive graphics
+- Applications
+- Tools for writing Websites
+
+** But What is Data?
+- Anything countable can count as data
+- Anything that a computer processes is data.
+
+** Real Data Journalism
+- A tendency to look for what is categorizable, quantifiable and comparable in any news topic
+- A conviction that technology, properly applied to these aspects, can tell us something
+about the story that is both worth knowing and unknowable in any other
+way.
+
+** Recommendations
+*** Thibodeaux
+- Do not care what you know
+- Do not mind how to write the story
+- Either through words or pixels, "write!".
+- Pick up what's at hand
+- Learn what you need
+- Get to something real as soon as possible.
+
+*** Holovaty
+- Who cares?
+- I hope my competitors waste their time arguing about this as long as
+possible.
+*** Bradshaw
+- All the information is reduced to numbers
+- To 0 and 1, bits.
+- The data are not only the source but also the tool
+- Or the story
+- Or it can be both
+
+** The misunderstanding of data visualisation
+- Not having into account visualisation as part of the
+analytic stage
+- One of the typical errors of many data journalism
+- Data analysis it is also performed with visualisation tools.
+
+** Open Data Journalism
+- Open data can be used freely as a data source
+- The journalistic product is open data
+- The data sources and the methodology are published and shared
+
+** Spanish Data Journalism Scene
+- Data Journalism Working Group
+- Master from URJC-Unidad Editorial
+- Open Data and Data Journalism Conference.
+- Data Journalism Workshop.
+- El Confidencial, ABC, El Mundo.
+- Civio, Datalab, Datadista
+
+* Prototypes
+
+- England, August 2011.
+- A young is killed by police in Tottenham
+- Protests and riots in the streets
+- Meyer's "Detroit Riot" is ans inspiration to deal with it.
+
+** Our proposal: 13 prototypes
+
+- Applications or Newsapps
+- Interactive tools
+- Classic stories CAR
+- Tools for writing
+- Websites with a set of articles
+- Data visualisation.
+- General purpose applications
+- Public service tools
+- Maps
+- Single-page projects
+- Video
+- Leaks
+- Social sciences approach.
+
+** Newsapps
+
+#+CAPTION: Image of Nonprofit Explorer's website
+#+NAME:   fig:Nonprofit Explorer
+[[./img/nonprofit-explorer.png]]
+https://projects.propublica.org/nonprofits/
+
+** Interactives
+
+#+CAPTION: Image of Club Soccer Predictions' website
+#+NAME:   fig:Club Soccer
+[[./img/club-soccer.png]]
+https://projects.fivethirtyeight.com/soccer-predictions/
+
+** Large Projects
+
+#+CAPTION: Image of Panama Papers' website
+#+NAME:   fig:Panama Papers
+[[./img/panama-papers.png]]
+https://www.icij.org/investigations/panama-papers/
+
+** Support for Collaborative Projects
+
+#+CAPTION: Image of DocumentCloud's website
+#+NAME:   fig:Document Cloud
+[[./img/document-cloud.png]]
+https://www.documentcloud.org/
+
+** Set of Articles
+
+#+CAPTION: Image of Mar Menor: historia profunda de un desastre's website
+#+NAME:   fig:Mar Menor, historia de un desastre
+[[./img/mar-menor.png]]
+https://datadista.com/medioambiente/desastre-mar-menor/
+
+** Data Visualisation
+
+#+CAPTION: Image of Soy de Temporada's website
+#+NAME:   fig:Soy de  temporada
+[[./img/soydetemporada.png]]
+https://soydetemporada.es/
+
+** General Purpose Applications
+
+#+CAPTION: Image of LibreBOR's website
+#+NAME:   fig:LibreBOR
+[[./img/librebor.png]]
+https://librebor.me/
+
+** Public Service
+
+#+CAPTION: Image of Health Inspection in Madrid's website
+#+NAME:   fig:Health Inspection in Madrid
+[[./img/bares.png]]
+https://civio.es/tu-derecho-a-saber/2019/10/10/consulta-los-locales-de-tu-barrio-que-suspendieron-en-la-ultima-inspeccion-sanitaria/
+
+** Maps
+
+#+CAPTION: Image of Vidas Contadas' website
+#+NAME:   fig:Vidas contadas
+[[./img/vidas-contadas.png]]
+http://vidascontadas.org/
+
+** One Page Project
+
+
+#+CAPTION: Image of Historia de Zainab's website
+#+NAME:   fig:Historia de Zainab
+[[./img/zainab.png]]
+http://historiadezainab.org/
+
+** Video Support
+
+#+CAPTION: Image of Población dirigida's website
+#+NAME:   fig:Población Dirigida
+[[./img/poblacion-dirigida.png]]
+https://territoriodedatos.org/poblacion-dirigida/
+
+
+** Leaks
+
+#+CAPTION: Image of Wikileaks' website
+#+NAME:   fig:wikileaks.org
+[[./img/wikileaks.png]]
+https://wikileaks.org/
+
+** Social Science Driven Projects. Precision Journalism
+
+#+CAPTION: Image of Reading the riots' website
+#+NAME:   fig:Reading the riots
+[[./img/reading-the-riots.png]]
+https://www.theguardian.com/uk/series/reading-the-riots
+
+* Conclussions
+
+** Context
+- Object of study
+- Scope of the proposal.
+- Identification of prototypes
+
+** Conclussion?
+- We get 13 prototypes
+- It is a work in progress
+- The data journalism community will say.
+
