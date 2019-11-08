@@ -1,3 +1,10 @@
 * XI Congreso de Ciberperiodismo
-Presentación del artículo presentado al XI Congreso de Ciberperiodismo
-- https://www.ehu.eus/es/web/ciberpebi/home
+[[https://flowsta.github.io/xi-cicp][Presentación]] del artículo entregado al [[https://www.ehu.eus/es/web/ciberpebi/home][XI Congreso de Ciberperiodismo]]
+(Bilbao, 11-12/11/2019)
+
+- Vídeo: https://youtu.be/Z_JqKgX-tF4
+
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_JqKgX-tF4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
